@@ -1,6 +1,6 @@
 # Great List of Resources to Build an Enterprise Grade Home Lab
 
-Based on the Blue Team series of webinars: 'Becoming an All-Around Defender' https://www.sans.org/blog/becoming-an-all-around-defender/ by Ismael Valenzuela [@aboutsecurity]() & Justin Henderson [@securitymapper](https://twitter.com/securitymapper?lang=en)
+Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](https://www.sans.org/blog/becoming-an-all-around-defender/) by #SEC530 co-authors Ismael Valenzuela [@aboutsecurity]() & Justin Henderson [@securitymapper](https://twitter.com/securitymapper?lang=en)
 
 ## Network
 ### OpenSource / Free
