@@ -10,7 +10,7 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 * [SecurityOnion](https://securityonion.net/) - Security Onion is a free and open source Linux distribution for threat hunting, enterprise security monitoring, and log management. It includes Elasticsearch, Logstash, Kibana, Snort, Suricata, Zeek (formerly known as Bro), Wazuh, Sguil, Squert, CyberChef, NetworkMiner, and many other security tools. The easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes!
 * [Moloch](https://molo.ch/) - Moloch augments your current security infrastructure to store and index network traffic in standard PCAP format, providing fast, indexed access. An intuitive and simple web interface is provided for PCAP browsing, searching, and exporting. Moloch is built to be deployed across many systems and can scale to handle tens of gigabits/sec of traffic.
 * [Pi-hole](https://pi-hole.net/) - The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
-* [pfSense] (https://github.com/pfsense/pfsense) - Firewall and Router FreeBSD distribution. pfSense started in 2004 as a fork of the m0n0wall Project (which ended 2015/02/15), though has diverged significantly since.
+* [pfSense](https://github.com/pfsense/pfsense) - Firewall and Router FreeBSD distribution. pfSense started in 2004 as a fork of the m0n0wall Project (which ended 2015/02/15), though has diverged significantly since.
 * [Opnsense](https://opnsense.org/) - OPNsense is an open source, easy-to-use and easy-to-build HardenedBSD based firewall and routing platform. OPNsense includes most of the features available in expensive commercial firewalls, and more in many cases. It brings the rich feature set of commercial offerings with the benefits of open and verifiable sources.OPNsense started as a fork of pfSense® and m0n0wall in 2014, with its first official release in January 2015. The project has evolved very quickly while still retaining  familiar aspects of both m0n0wall and pfSense. A strong focus on security and code quality drives the development of the project.
 * [WireGuard](https://www.wireguard.com/) - WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
 * [PacketFence](https://packetfence.org/) - PacketFence is a fully supported, trusted, Free and Open Source network access control (NAC) solution. Boasting an impressive feature set including a captive-portal for registration and remediation, centralized wired, wireless and VPN management, industry-leading BYOD capabilities, 802.1X and RBAC support, integrated network anomaly detection with layer-2 isolation of problematic devices; PacketFence can be used to effectively secure small to very large heterogeneous networks.
@@ -18,7 +18,7 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 
 ### Commercial
 
-* [Unifi SDN, Ubiquiti] (https://www.ui.com/software/) - The UniFi® Software-Defined Networking (SDN) platform is an end-to-end system of network devices across different locations — all controlled from a single interface.
+* [Unifi SDN, Ubiquiti](https://www.ui.com/software/) - The UniFi® Software-Defined Networking (SDN) platform is an end-to-end system of network devices across different locations — all controlled from a single interface.
 
 ## Endpoint
 ### OpenSource / Free
@@ -72,7 +72,7 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 * [Cortex](https://github.com/TheHive-Project/Cortex) - Cortex tries to solve a common problem frequently encountered by SOCs, CSIRTs and security researchers in the course of threat intelligence, digital forensics and incident response: how to analyze observables they have collected, at scale, by querying a single tool instead of several? Cortex, an open source and free software, has been created by TheHive Project for this very purpose. Observables, such as IP and email addresses, URLs, domain names, files or hashes, can be analyzed one by one or in bulk mode using a Web interface. Analysts can also automate these operations thanks to the Cortex REST API.
 
 ## Network Discovery & Vulnerability Management
-* [Rumble](tps://www.rumble.run/) - Rumble is fast and identifies assets without the need for credentials or special access. A single agent can assess an entire enterprise, or multiple agents can be used to limit cross-site traffic. Discover networks, large or small, in a fraction of the time required by legacy tools.
+* [Rumble](https://www.rumble.run/) - Rumble is fast and identifies assets without the need for credentials or special access. A single agent can assess an entire enterprise, or multiple agents can be used to limit cross-site traffic. Discover networks, large or small, in a fraction of the time required by legacy tools.
 * [OpenVAS](https://www.openvas.org/) - OpenVAS is a full-featured vulnerability scanner. Its capabilities include unauthenticated testing, authenticated testing, various high level and low level Internet and industrial protocols, performance tuning for large-scale scans and a powerful internal programming language to implement any type of vulnerability test.
 
 ## WAF
@@ -89,7 +89,7 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 ## Virtualization & Containers
 ### OpenSource / Free
 * [VMWare ESXi](https://www.vmware.com/products/esxi-and-esx.html) - A robust, bare-metal hypervisor that installs directly onto your physical server. With direct access to and control of underlying resources, VMware ESXi effectively partitions hardware to consolidate applications and cut costs.
-* [Docker](https://www.docker.com/) -A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+* [Docker](https://www.docker.com/) - A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 * [Proxmox VE](https://proxmox.com/en/proxmox-ve) - Proxmox VE is a complete open-source platform for all-inclusive enterprise virtualization that tightly integrates KVM hypervisor and LXC containers, software-defined storage and networking functionality on a single platform, and easily manages high availability clusters and disaster recovery tools with the built-in web management interface. The enterprise-class features and the 100% software-based focus make Proxmox VE the perfect choice to virtualize your IT infrastructure, optimize existing resources, and increase efficiencies with minimal expense.
 
 ## DevSecOps
@@ -104,7 +104,7 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 
 ## OS & Linux Distros
 
-* [Windows Evaluation Images](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise) - To download the Windows 10 Enterprise 90-day trial edition, go to Microsoft's TechNet Evaluation Center. Click the Sign in link at the top to log in with your Microsoft account.
+* [Windows Evaluation Images](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise) - 90 day evaluations of Windows 10 Enterprise. To download the Windows 10 Enterprise 90-day trial edition, click the Sign in link at the top to log in with your Microsoft account.
 * [Kali](https://www.kali.org/) - Kali Linux is an open source project that is maintained and funded by Offensive Security. Kali Linux has over 600 preinstalled penetration-testing programs, including Armitage (a graphical cyber attack management tool), Nmap (a port scanner), Wireshark (a packet analyzer), John the Ripper (a password cracker), Aircrack-ng (a software suite for penetration-testing wireless LANs), Burp suite and OWASP ZAP web application security scanners.
 * [Alpine](https://alpinelinux.org/) - Small. Simple. Secure. Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
 * [Ubuntu](https://ubuntu.com/) - Ubuntu is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core for the internet of things devices and robots. All the editions can run on the computer alone, or in a virtual machine.
@@ -116,7 +116,7 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 * [Infection Monkey](https://www.guardicore.com/infectionmonkey/) - The Infection Monkey is an open source Breach and Attack Simulation (BAS) tool that assesses the resiliency of private and public cloud environments to post-breach attacks and lateral movement.
 * [Metta](https://github.com/uber-common/metta) - Metta is an information security preparedness tool. This project uses Redis/Celery, python, and vagrant with virtualbox to do adversarial simulation. This allows you to test (mostly) your host based instrumentation but may also allow you to test any network based detection and controls depending on how you set up your vagrants. The project parses yaml files with actions and uses celery to queue these actions up and run them one at a time without interaction.
 
-## Othere
+## Other
 
 * [Apache NiFi]() - An easy to use, powerful, and reliable system to process and distribute data.
 
