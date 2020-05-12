@@ -7,10 +7,16 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 
 * [Zeek](https://zeek.org/) - A powerful framework for network traffic analysis and security monitoring.
 * [Suricata](https://suricata-ids.org/) - Suricata is a free and open source, mature, fast and robust network threat detection engine.The Suricata engine is capable of real time intrusion detection (IDS), inline intrusion prevention (IPS), network security monitoring (NSM) and offline pcap processing.
+    - [EveBox](https://evebox.org/) - Web GUI for analyzing Suricata EVE logs. Removes need for SIEM or other interface although a SIEM still allows for more granular control and augmentation
+    - [Scirius](https://github.com/StamusNetworks/scirius) - GUI for managing Suricata rules
 * [SecurityOnion](https://securityonion.net/) - Security Onion is a free and open source Linux distribution for threat hunting, enterprise security monitoring, and log management. It includes Elasticsearch, Logstash, Kibana, Snort, Suricata, Zeek (formerly known as Bro), Wazuh, Sguil, Squert, CyberChef, NetworkMiner, and many other security tools. The easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes!
 * [Moloch](https://molo.ch/) - Moloch augments your current security infrastructure to store and index network traffic in standard PCAP format, providing fast, indexed access. An intuitive and simple web interface is provided for PCAP browsing, searching, and exporting. Moloch is built to be deployed across many systems and can scale to handle tens of gigabits/sec of traffic.
 * [Pi-hole](https://pi-hole.net/) - The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
 * [pfSense](https://github.com/pfsense/pfsense) - Firewall and Router FreeBSD distribution. pfSense started in 2004 as a fork of the m0n0wall Project (which ended 2015/02/15), though has diverged significantly since.
+    - Supports SSL/TLS Inspection via Squid SslBump
+    - Supports network antivirus
+    - Supports VPN
+    - Supports IDS/IPS
 * [Opnsense](https://opnsense.org/) - OPNsense is an open source, easy-to-use and easy-to-build HardenedBSD based firewall and routing platform. OPNsense includes most of the features available in expensive commercial firewalls, and more in many cases. It brings the rich feature set of commercial offerings with the benefits of open and verifiable sources.OPNsense started as a fork of pfSense® and m0n0wall in 2014, with its first official release in January 2015. The project has evolved very quickly while still retaining  familiar aspects of both m0n0wall and pfSense. A strong focus on security and code quality drives the development of the project.
 * [WireGuard](https://www.wireguard.com/) - WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
 * [PacketFence](https://packetfence.org/) - PacketFence is a fully supported, trusted, Free and Open Source network access control (NAC) solution. Boasting an impressive feature set including a captive-portal for registration and remediation, centralized wired, wireless and VPN management, industry-leading BYOD capabilities, 802.1X and RBAC support, integrated network anomaly detection with layer-2 isolation of problematic devices; PacketFence can be used to effectively secure small to very large heterogeneous networks.
@@ -24,8 +30,8 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 ### OpenSource / Free
 
 * [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) - System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log. It provides detailed information about process creations, network connections, and changes to file creation time. By collecting the events it generates using Windows Event Collection or SIEM agents and subsequently analyzing them, you can identify malicious or anomalous activity and understand how intruders and malware operate on your network.
-- Guide 1 - Olaf Hartong has a project called Sysmon Modular. It breaks out each Sysmon event ID and adds MITRE technique IDs to the logs. https://github.com/olafhartong/sysmon-modular
-- Guide 2 - Swift on Security has a Sysmon configuration file that is documented and works as a great start. https://github.com/SwiftOnSecurity/sysmon-config
+    - Guide 1 - Olaf Hartong has a project called Sysmon Modular. It breaks out each Sysmon event ID and adds MITRE technique IDs to the logs. https://github.com/olafhartong/sysmon-modular
+    - Guide 2 - Swift on Security has a Sysmon configuration file that is documented and works as a great start. https://github.com/SwiftOnSecurity/sysmon-config
 * [Auditd](https://linux.die.net/man/8/auditd) - The auditd subsystem is an access monitoring and accounting for Linux developed and maintained by RedHat. It was designed to integrate pretty tightly with the kernel and watch for interesting system calls. Additionally, likely because of this level of integration and detailed logging, it is used as the logger for SELinux.
 * [OSQuery](https://osquery.io/) - osquery exposes an operating system as a high-performance relational database. This allows you to write SQL-based queries to explore operating system data. With osquery, SQL tables represent abstract concepts such as running processes, loaded kernel modules, open network connections, browser plugins, hardware events or file hashes.
 * [Velociraptor](https://github.com/Velocidex/velociraptor) - Velociraptor is a tool for collecting host based state information using Velocidex Query Language (VQL) queries.
@@ -49,6 +55,7 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 ### OpenSource / Free
 
 * [Squid](http://www.squid-cache.org/) - Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. It reduces bandwidth and improves response times by caching and reusing frequently-requested web pages. Squid has extensive access controls and makes a great server accelerator. It runs on most available operating systems, including Windows and is licensed under the GNU GPL.
+    - SSL Inspection - Squid is capable of doing SSL Inspection using a feature called SslBump Peek and Splice. This is supported in open source firewalls like pfSense.
 
 ## Load Balancing
 ### OpenSource / Free
@@ -121,5 +128,3 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 ## Other
 
 * [Apache NiFi]() - An easy to use, powerful, and reliable system to process and distribute data.
-
-
