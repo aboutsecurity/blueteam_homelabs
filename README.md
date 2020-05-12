@@ -37,6 +37,16 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 * [Velociraptor](https://github.com/Velocidex/velociraptor) - Velociraptor is a tool for collecting host based state information using Velocidex Query Language (VQL) queries.
 * [Wazuh](https://github.com/wazuh/wazuh) - Wazuh helps you to gain deeper security visibility into your infrastructure by monitoring hosts at an operating system and application level. 
 
+## Windows Services
+### Most require a Windows Standard Server License
+* [PKI](https://timothygruber.com/pki/deploy-a-pki-on-windows-server-2016-part-1/) - Public Key Infrastructure is hard to deploy. Yet there are multiple guides online on how to deploy a Windows PKI. Also, you can configure it to automatically enroll user and device certificates for things like Smart Cards, Code Signing, and 802.11x port authentication (NAC stuff)
+* [File Classification Infrastructure](https://docs.microsoft.com/en-us/windows-server/identity/solution-guides/deploy-automatic-file-classification--demonstration-steps-) - Windows servers support file classification. This can be manual or set up to automatically tag files so that access rules can be applied to them.
+* [Dynamic Access Control](https://docs.microsoft.com/en-us/windows-server/identity/solution-guides/dynamic-access-control-overview) - DAC allows organizations to dynamically calculate access controls at the time of object access. This allows rules to include more conditions than just users and groups.
+* [Active Directory Federation Services](https://docs.microsoft.com/en-us/windows-server/identity/active-directory-federation-services) - Windows Servers can be deployed as an ADFS server. ADFS allows for enterprise federation of user accounts to external applications and partners.
+* [Windows Server Update Services](https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) - WSUS is a service that allows you to control patching for Windows workstations and servers. It can be modified to include third party programs as well.
+* [Remote Desktop](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/welcome-to-rds) - Installing the remote desktop service within a Windows server allows for remote connectivity of one or more users. It can also be modified to work via a web browser or with application streaming.
+* [Domain Controller](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) - Active Directory is a key component of on-premise enterprise environments. Deploying one and understanding the multipe facets is extremely beneficial to cyber defenders. Areas to understand (group policy, users vs. computers vs. service accounts, single-sign on, DNS integration, replication, sites and services, forests, trusts, and domains)
+
 ## Log Management & Analytics
 ### OpenSource / Free
 
@@ -45,6 +55,7 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 * [Elastalert](https://github.com/Yelp/elastalert) - ElastAlert is a simple framework for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch.
 * [GrayLog](https://www.graylog.org/) - Graylog is a leading centralized log management solution built to open standards for capturing, storing, and enabling real-time analysis of terabytes of machine data.Purpose-built for modern log analytics, Graylog removes complexity from data exploration, compliance audits, and threat hunting so you can quickly and easily find meaning in data and take action faster.
 * [Kolidee Fleet](https://www.kolide.com/fleet/) - Open Source Osquery Manager. Expand osquery capabilities from a single machine to your entire fleet. Query dynamic sets of hosts, and watch the data stream in for immediate analysis and investigation. Export results for a closer look in your favorite tools.
+* [Windows Event Collector](https://docs.microsoft.com/en-us/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection) - Windows servers can be configured as a Windows Event Collector. This allows it to receive Windows logs from other Windows devices without installing a third party agent. Group policy + Windows Event Collector = WIN!
 
 ## Email
 ### OpenSource / Free
@@ -96,6 +107,7 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 * [Mikrotik](https://mikrotik.com/products) - MikroTik  provides hardware and software for Internet connectivity in most of the countries around the world. MikroTik maintani the RouterOS software system that provides extensive stability, controls, and flexibility for all kinds of data interfaces and routing.
 * [Raspberry Pi](https://www.raspberrypi.org/) - The Raspberry Pi (/paɪ/) is a series of small single-board computers developed in the United Kingdom by the Raspberry Pi Foundation to promote teaching of basic computer science in schools and in developing countries.
 * [Supermicro Fanless & IoT](https://www.supermicro.com/en/products/embedded/servers) - Optimized systems designed for reliable, quiet operation in tight spaces.
+* [Ebay](www.ebay.com) - Ebay is a common place to buy used equipment. For example, you can usually find an HP Z620 for around $500 with 16 CPU cores and between 64 and 96 GB of RAM.
 
 ## Virtualization & Containers
 ### OpenSource / Free
