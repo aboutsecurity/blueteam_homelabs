@@ -36,6 +36,7 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 * [OSQuery](https://osquery.io/) - osquery exposes an operating system as a high-performance relational database. This allows you to write SQL-based queries to explore operating system data. With osquery, SQL tables represent abstract concepts such as running processes, loaded kernel modules, open network connections, browser plugins, hardware events or file hashes.
 * [Velociraptor](https://github.com/Velocidex/velociraptor) - Velociraptor is a tool for collecting host based state information using Velocidex Query Language (VQL) queries.
 * [Wazuh](https://github.com/wazuh/wazuh) - Wazuh helps you to gain deeper security visibility into your infrastructure by monitoring hosts at an operating system and application level. 
+* [Windows Defender Exploit Guard](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) - Windows Defender Exploit Guard is built-in to professional edition and higher Windows machines. It includes process and memory level protection mechanisms with a suite of auditing capabilities. Exploit guard is not to be confused with Windows Defender Antivirus. It allows overriding security controls per process or folder and is controlled via an XML configuration file. The XML file is pushed via group policy or an asset management tool such as SCCM or Intunes.
 
 ## Windows Services
 ### Most require a Windows Standard Server License
