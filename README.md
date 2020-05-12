@@ -56,6 +56,13 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 
 * [Squid](http://www.squid-cache.org/) - Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. It reduces bandwidth and improves response times by caching and reusing frequently-requested web pages. Squid has extensive access controls and makes a great server accelerator. It runs on most available operating systems, including Windows and is licensed under the GNU GPL.
     - SSL Inspection - Squid is capable of doing SSL Inspection using a feature called SslBump Peek and Splice. This is supported in open source firewalls like pfSense.
+* [BurpSuite](https://portswigger.net/burp) - BurpSuite has a free community edition and a professional edition. It is commonly known for web application penetration testing. However, it is great for blue teamers to test applications and understand how they work. This is especially helpful for putting in rules for web application firewalls or application load balancers.
+* [OWASP ZAP Zed Attack Proxy](https://owasp.org/www-project-zap/) - OWASP ZAP is a free man-in-the-middle proxy. It is commonly known for web application penetration testing. However, it is great for blue teamers to test applications and understand how they work. This is especially helpful for putting in rules for web application firewalls or application load balancers.
+
+## WAF
+### OpenSource / Free
+
+* [Modsecurity](https://modsecurity.org/) - ModSecurity is an open source, cross-platform web application firewall (WAF) module. Known as the "Swiss Army Knife" of WAFs, it enables web application defenders to gain visibility into HTTP(S) traffic and provides a power rules language and API to implement advanced protections.
 
 ## Load Balancing
 ### OpenSource / Free
@@ -83,11 +90,6 @@ Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](h
 ## Network Discovery & Vulnerability Management
 * [Rumble](https://www.rumble.run/) - Rumble is fast and identifies assets without the need for credentials or special access. A single agent can assess an entire enterprise, or multiple agents can be used to limit cross-site traffic. Discover networks, large or small, in a fraction of the time required by legacy tools.
 * [OpenVAS](https://www.openvas.org/) - OpenVAS is a full-featured vulnerability scanner. Its capabilities include unauthenticated testing, authenticated testing, various high level and low level Internet and industrial protocols, performance tuning for large-scale scans and a powerful internal programming language to implement any type of vulnerability test.
-
-## WAF
-### OpenSource / Free
-
-* [Modsecurity](https://modsecurity.org/) - ModSecurity is an open source, cross-platform web application firewall (WAF) module. Known as the "Swiss Army Knife" of WAFs, it enables web application defenders to gain visibility into HTTP(S) traffic and provides a power rules language and API to implement advanced protections.
 
 ## Hardware
 * [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html) - Intel® NUC is a small form factor PC with a tiny footprint. Short for Next Unit of Computing, Intel® NUC (say it like “luck” or “truck”) puts full-sized PC power in the palm of your hand.
