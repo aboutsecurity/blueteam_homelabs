@@ -1,4 +1,4 @@
-# Great List of Resources to Build an Enterprise Grade Home Lab
+# Great List of Resources and Training to Build an Enterprise Grade Home Lab
 
 Based on the Blue Team series of webinars: ['Becoming an All-Around Defender'](https://www.sans.org/blog/becoming-an-all-around-defender/) by [Security 530](https://www.sans.org/course/defensible-security-architecture-and-engineering) co-authors Ismael Valenzuela [@aboutsecurity](https://twitter.com/aboutsecurity) & Justin Henderson [@securitymapper](https://twitter.com/securitymapper?lang=en)
 
