@@ -8,7 +8,7 @@ Blog post: https://www.sans.org/blog/becoming-an-all-around-defender-building-an
 ### OpenSource / Free
 
 * [Zeek](https://zeek.org/) - A powerful framework for network traffic analysis and security monitoring.
-* [Suricata](https://suricata-ids.org/) - Suricata is a free and open source, mature, fast and robust network threat detection engine.The Suricata engine is capable of real time intrusion detection (IDS), inline intrusion prevention (IPS), network security monitoring (NSM) and offline pcap processing.
+* [Suricata](https://suricata.io/) - Suricata is a free and open source, mature, fast and robust network threat detection engine.The Suricata engine is capable of real time intrusion detection (IDS), inline intrusion prevention (IPS), network security monitoring (NSM) and offline pcap processing.
     - [EveBox](https://evebox.org/) - Web GUI for analyzing Suricata EVE logs. Removes need for SIEM or other interface although a SIEM still allows for more granular control and augmentation
     - [Scirius](https://github.com/StamusNetworks/scirius) - GUI for managing Suricata rules
 * [SecurityOnion](https://securityonion.net/) - Security Onion is a free and open source Linux distribution for threat hunting, enterprise security monitoring, and log management. It includes Elasticsearch, Logstash, Kibana, Snort, Suricata, Zeek (formerly known as Bro), Wazuh, Sguil, Squert, CyberChef, NetworkMiner, and many other security tools. The easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes!
