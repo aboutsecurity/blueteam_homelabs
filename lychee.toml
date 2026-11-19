@@ -1,0 +1,12 @@
+no_progress = true
+max_concurrency = 4
+timeout = 30
+max_retries = 2
+retry_wait_time = 5
+
+exclude = [
+    # The eBay homepage returns HTTP 403 to automated checks; review it manually.
+    '^https://www\.ebay\.com/$',
+    # Verified page content on 2026-11-19; lychee receives 403 while curl receives 200.
+    '^https://www\.supermicro\.com/en/products/edge/servers$',
+]

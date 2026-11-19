@@ -1,0 +1,35 @@
+name: Check links
+
+on:
+  push:
+    paths:
+      - "**/*.md"
+      - ".github/workflows/links.yml"
+      - "lychee.toml"
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".github/workflows/links.yml"
+      - "lychee.toml"
+  schedule:
+    - cron: "23 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check Markdown links
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
+        with:
+          args: --config lychee.toml "**/*.md"
+          lycheeVersion: v0.24.2
+          fail: true
+          failIfEmpty: true
